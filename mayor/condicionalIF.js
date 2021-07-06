@@ -9,6 +9,7 @@ function mayor() {
     } else {
         resul = num2 ;    
     }
-    console.log(resul);
-    alert("El numero mayor es " + resul);
+    //console.log(resul);
+    //alert("El numero mayor es " + resul);
+    document.getElementById("mayor").innerHTML = resul;
 }
